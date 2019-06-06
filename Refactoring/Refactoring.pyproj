@@ -21,6 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Movie.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rental.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Customer.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Refactoring.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
