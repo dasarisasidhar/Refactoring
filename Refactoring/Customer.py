@@ -41,4 +41,4 @@ class Customer():
             totalAmount += thisAmount
             #add footer lines
         result += "amount owes is {0} \n you earned is {1} frquent rental point.".format(totalAmount,frequentRenterPoints)
-        return result
+        return result\\
